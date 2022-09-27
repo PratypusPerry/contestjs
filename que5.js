@@ -1,11 +1,8 @@
 const generateRandomnum=()=>{
-    return (Math.floor(Math.random() *100 +1));
+    return (Math.floor(Math.random() *31)+10);
 }
 const element=(arrE)=>{
-    if(arrE>=10 && arrE<=40)
     return arrE;
-    else
-    return (element(generateRandomnum()));
 }
 const generateArray=()=>{
 var a=[]
